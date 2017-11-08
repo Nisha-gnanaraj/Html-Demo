@@ -1,0 +1,53 @@
+body,html{
+	margin:0;
+	padding:0;
+}
+ul,ol,li {
+	list-style-type: none;
+}
+a
+{
+	text-decoration: none;
+}
+header{
+	width:100%;
+	height:50px;
+	background:none;
+	float:left;
+	position:fixed;
+	z-index: 50;
+}
+header .logo{
+	float:left;
+	margin:5px;
+}
+header .nav{
+	float:right;
+	padding-top:12px;
+}
+header .nav ul.links{
+	float:left;
+	padding:4px 60px 0 0
+}
+header .nav ul.links li{
+	float:left;
+	font-size:14px; 
+	padding:0 15px;
+}
+header .nav ul.links a
+{
+	float:left;
+	color:#FFF;
+	font-size:13px; 
+	font-weight:bold
+}
+.banner{
+	width:100%;
+	height:200px;
+	float:left;
+	margin:-55px 100px 0 -55px; position:relative;
+}
+.banner figure{
+	width:100%;
+	float:left;
+}

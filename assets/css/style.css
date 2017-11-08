@@ -1,0 +1,42 @@
+h1{
+    font-family: "Gotham SSm A", "Gotham SSm B", Helvetica, sans-serif;
+    color: blue;
+    text-align: center;
+}
+p{
+    padding: 5px;
+}
+.address{
+    border: 1px solid powderblue;
+    width: 75%
+}
+a:link{
+    color: pink;
+    background-color: transparent;
+}
+a:hover{
+    color: green;
+    background-color: transparent;
+}
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+th,td{
+    padding-bottom: 5px;
+}
+table{
+    width:75%
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.image {
+    width: 100%;
+}

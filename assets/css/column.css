@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+}
+
+div{
+  height: 200px;
+  width: 33.33%; /* as @passatgt mentioned in the comment, for the older browsers fallback */
+  width: calc(100% / 5);
+  display: inline-block;
+}
+
+div:first-of-type{background-color: red}
+div:nth-of-type(2){background-color: blue}
+div:nth-of-type(3){background-color: green}
+div:nth-of-type(4){background-color: grey}
+div:nth-of-type(5){background-color: pink}
+#container1 {
+    float:left;
+    width:100%;
+}
+#col1 {
+    float:left;
+    width:25%;
+    background:red;
+}
+#col2 {
+    float:left;
+     width:25%;
+    background:yellow;
+}
+#col3 {
+    float:left;
+     width:25%;
+    background:green;
+}
+#col4 {
+    float:left;
+     width:25%;
+    background:pink;
+}
